@@ -94,11 +94,11 @@
     color: #222;
   }
   50% {
-    box-shadow: 0 0 25px #89F5A2;
+    box-shadow: 0 0 25px rgb(73, 166, 210);
   }
   100% {
-    box-shadow: 0 0 0 #89F5A2;
-    background-color: #89F5A2;
+    box-shadow: 0 0 0 rgb(73, 166, 210);
+    background-color: rgb(73, 166, 210);
   }
 }
 @-webkit-keyframes pulsate {
@@ -301,17 +301,17 @@
   background-color: #383838 !important;
 }
 #-blink-dev-tools .cm-search-highlight-start:before {
-  border-color: #89f5a2 !important;
+  border-color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .cm-search-highlight-end:before {
-  border-color: #89f5a2 !important;
+  border-color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .cm-search-highlight:before {
-  border-color: #89f5a2 !important;
+  border-color: rgb(73, 166, 210) !important;
   padding: 2px !important;
 }
 #-blink-dev-tools .cm-line-with-selection .cm-column-with-selection.cm-search-highlight:before {
-  background-color: #89f5a2 !important;
+  background-color: rgb(73, 166, 210) !important;
   border-radius: 2px !important;
 }
 #-blink-dev-tools span.cm-token-highlight {
@@ -319,11 +319,11 @@
   padding: 0px !important;
 }
 #-blink-dev-tools span.cm-token-highlight:before {
-  border-color: #89f5a2 !important;
+  border-color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .cm-line-with-selection span.cm-column-with-selection {
   color: #000 !important;
-  background-color: #89f5a2 !important;
+  background-color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .cm-whitespace:before {
   color: #555 !important;
@@ -495,7 +495,7 @@
   border-top: none !important;
 }
 #-blink-dev-tools .cm-js-atom {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .cm-js-attribute {
   color: #4e87bf !important;
@@ -531,7 +531,7 @@
   color: #d8fa3c !important;
 }
 #-blink-dev-tools .cm-js-number {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .cm-js-operator {
   color: #cdb943 !important;
@@ -556,10 +556,10 @@
 }
 #-blink-dev-tools .source-frame-eval-expression {
   background-color: rgba(137, 245, 162, 0.4) !important;
-  border-color: #89F5A2 !important;
+  border-color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .cm-atom {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .cm-comment {
   color: #676767 !important;
@@ -576,7 +576,7 @@
   font-style: italic;
 }
 #-blink-dev-tools .cm-number {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .cm-operator {
   color: #cdb943 !important;
@@ -730,10 +730,10 @@
   color: #8b6ccf !important;
 }
 #-blink-dev-tools .console-formatted-number {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .console-formatted-boolean {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .console-object-preview {
   color: #dddddd !important;
@@ -810,7 +810,7 @@
 }
 #-blink-dev-tools .tabbed-pane:not(.help-window-main) .tabbed-pane-header .tabbed-pane-header-tab.selected {
   background: none !important;
-  border-top: 2px solid #89f5a2 !important;
+  border-top: 2px solid rgb(73, 166, 210) !important;
   color: #f8f8f8 !important;
   font-size: 1em;
 }
@@ -826,7 +826,7 @@
 }
 #-blink-dev-tools .tabbed-pane:not(.help-window-main) .overrides-view .tabbed-pane-header-tab.selected {
   border-top: none !important;
-  border-left: 6px solid #89f5a2 !important;
+  border-left: 6px solid rgb(73, 166, 210) !important;
   margin-left: 0 !important;
 }
 #-blink-dev-tools .tabbed-pane-content .resizer-widget,
@@ -1006,7 +1006,7 @@
   height: 20px !important;
 }
 #-blink-dev-tools .revision-history-link {
-  color: #89F5A2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .overrides-view .tabbed-pane-header-tab {
   color: #999 !important;
@@ -1036,7 +1036,7 @@
   margin: 0 !important;
 }
 #-blink-dev-tools #search-results-pane-file-based .show-more-matches {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools #search-results-pane-file-based .parent:hover {
   background-color: #2f2f2f !important;
@@ -1054,7 +1054,7 @@
   color: #000000 !important;
   border-radius: 2px !important;
   font-size: 1em !important;
-  background-color: #89f5a2 !important;
+  background-color: rgb(73, 166, 210) !important;
   box-shadow: rgba(0, 0, 0, 0.498039) 3px 3px 4px 0px !important;
 }
 #-blink-dev-tools .search-match:hover {
@@ -1090,7 +1090,7 @@
   background-image: -webkit-linear-gradient(#505050, #363636);
 }
 #-blink-dev-tools .data-grid .header th {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .data-grid .header .key-column,
 #-blink-dev-tools .data-grid .header .value-column {
@@ -1146,8 +1146,8 @@
   color: #49a6d2 !important;
 }
 #-blink-dev-tools .popover .content .network-timing-bar {
-  background-color: #89f5a2 !important;
-  border-left-color: #89f5a2 !important;
+  background-color: rgb(73, 166, 210) !important;
+  border-left-color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .popover .content .network-timing-bar-title {
   color: #cccccc !important;
@@ -1225,7 +1225,7 @@
   background-color: #2f2f2f !important;
 }
 #-blink-dev-tools .suggest-box .source-code .prefix {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .suggest-box .source-code .suffix {
   color: #d9d9d9 !important;
@@ -1281,11 +1281,11 @@
 }
 #-blink-dev-tools .resource-headers-view .outline-disclosure .header-count,
 #-blink-dev-tools .resource-headers-view .outline-disclosure .header-toggle {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
   margin-left: 4px !important;
 }
 #-blink-dev-tools .resource-headers-view .outline-disclosure .header-toggle:hover {
-  text-shadow: 0 0 10px #89f5a2;
+  text-shadow: 0 0 10px rgb(73, 166, 210);
 }
 #-blink-dev-tools .network-cell-subtitle {
   color: #bfbfbf !important;
@@ -1448,7 +1448,7 @@
   border-right: 1px solid #222222 !important;
 }
 #-blink-dev-tools #timeline-overview-sidebar .sidebar-tree-item.selected {
-  border-left: 6px solid #89f5a2 !important;
+  border-left: 6px solid rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools #timeline-overview-sidebar .sidebar-tree-item.selected .icon {
   background-color: #e6e6e6 !important;
@@ -1511,8 +1511,8 @@
   box-shadow: none !important;
 }
 #-blink-dev-tools .overview-grid-window-rulers {
-  border-right: 1px solid #89f5a2;
-  border-left: 1px solid #89f5a2;
+  border-right: 1px solid rgb(73, 166, 210);
+  border-left: 1px solid rgb(73, 166, 210);
 }
 #-blink-dev-tools .timeline-frame-strip {
   color: #cccccc !important;
@@ -1540,7 +1540,7 @@
 }
 #-blink-dev-tools .panel.elements .editing {
   background-color: #222222 !important;
-  outline: 1px solid #89f5a2 !important;
+  outline: 1px solid rgb(73, 166, 210) !important;
   color: #cccccc !important;
 }
 #-blink-dev-tools .panel.elements .outline-disclosure ol:focus li.selected .selection,
@@ -1646,7 +1646,7 @@
 }
 #-blink-dev-tools .settings-tab .help-section-title,
 #-blink-dev-tools .settings-tab-container .help-section-title {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .help-window-main,
 #-blink-dev-tools .help-window-main label:hover,
@@ -1696,13 +1696,13 @@
   border-bottom: none !important;
 }
 #-blink-dev-tools .dialog-contents .header {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .help-window-main .file-system-path {
   color: #cccccc !important;
 }
 #-blink-dev-tools .help-window-main .file-system-path-name {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .settings-dialog {
   border: 1px solid #444 !important;
@@ -1713,7 +1713,7 @@
   color: #ccc !important;
 }
 #-blink-dev-tools .dialog-contents .block-header {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .settings-dialog .settings-list-container {
   background-color: rgba(0, 0, 0, 0) !important;
@@ -1746,7 +1746,7 @@
   opacity: 0.3 !important;
 }
 #-blink-dev-tools .breakpoint-list li {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
   border-top: 1px solid #343434 !important;
   border-bottom: 1px solid #101010 !important;
 }
@@ -1786,7 +1786,7 @@
 #-blink-dev-tools .sidebar-pane > .body .placard + .info {
   background: #222222 !important;
   border-top: 0 !important;
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
   font-style: normal !important;
 }
 #-blink-dev-tools .sidebar-pane .section.expanded > .header {
@@ -1850,7 +1850,7 @@
   background-color: rgba(213, 181, 0, 0.6) !important;
 }
 #-blink-dev-tools .webkit-highlighted-line {
-  background-color: #89f5a2 !important;
+  background-color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .alternate-status-bar-buttons-bar .scripts-pause,
 #-blink-dev-tools .alternate-status-bar-buttons-bar .scripts-long-resume,
@@ -1893,7 +1893,7 @@
   background-image: -webkit-linear-gradient(#505050, #363636) !important;
 }
 #-blink-dev-tools .CodeMirror-linewidget .source-frame-breakpoint-message {
-  color: #89f5a2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools .CodeMirror-linewidget #source-frame-breakpoint-condition {
   background-color: #222222 !important;
@@ -1942,10 +1942,10 @@
 #-blink-dev-tools button.garbage-collect-status-bar-item:active .glyph,
 #-blink-dev-tools button.glue-async-status-bar-item:active .glyph,
 #-blink-dev-tools .filters-toggle.toggled-shown .glyph {
-  background-color: #89f5a2 !important;
+  background-color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools #scripts-debugger-status {
-  color: #89F5A2 !important;
+  color: rgb(73, 166, 210) !important;
 }
 #-blink-dev-tools button.scripts-step-over:disabled .glyph,
 #-blink-dev-tools button.scripts-step-into:disabled .glyph,
@@ -2087,7 +2087,7 @@
   color: #eee !important;
 }
 #-blink-dev-tools .filtered-item-list-dialog-item .highlight {
-  color: #89F5A2!important;
+  color: rgb(73, 166, 210)!important;
 }
 #-blink-dev-tools .filtered-item-list-dialog-item:hover {
   background-color: #333 !important;
